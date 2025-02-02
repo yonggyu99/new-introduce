@@ -78,14 +78,24 @@ p {
     width: 300px; 
     height: auto; 
     border-radius: 10px; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
-  }
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease-in-out;
+  } 
 
 .travel-img {
     width: 300px; 
-    height: auto; 
+    height: auto;
     border-radius: 10px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease-in-out;
     cursor : pointer;
   }
+
+.travel-img:hover{
+  scale : 1.1;
+}
+
+.like-img:hover{
+  scale : 1.1;
+}
+

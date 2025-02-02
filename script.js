@@ -1,3 +1,7 @@
+const currentPage = location.pathname;
+
+if(currentPage.includes("like.html")){
+
 const travelImg = document.querySelector(".travel-img");
 
 travelImg.addEventListener("click", () => {
@@ -11,9 +15,10 @@ travelImg.addEventListener("click", () => {
         travelImg.src = "images/like1.jpg";
     }
 });
+};
 
-
+if(currentPage.includes("home.html")){
 document.querySelector('.profile-card').addEventListener('click', function () {
     this.classList.toggle('is-flipped');
 });
-
+};
