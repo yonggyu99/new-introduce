@@ -17,7 +17,7 @@ travelImg.addEventListener("click", () => {
 });
 };
 
-if(currentPage.includes("home.html")){
+if(currentPage.includes("index.html")){
 document.querySelector('.profile-card').addEventListener('click', function () {
     this.classList.toggle('is-flipped');
 });
