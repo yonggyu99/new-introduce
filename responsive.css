@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .nav-page ul, .nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .nav-page ul li, .nav ul li {
+        font-size: 1.5rem;
+    }
+    
+    /* 홈 페이지 */
+    .profile-card {
+        width: 300px;
+        height: 300px;
+    }
+    
+    /* About Me 페이지 */
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .m-img {
+        width: 80%;
+    }
+    
+    /* Like 페이지 */
+    .like-container {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    .like-img, .travel-img {
+        width: 80%;
+    }
+    
+    /* Plan 페이지 */
+    .m-img {
+        width: 90%;
+    }
+}
