@@ -6,21 +6,21 @@
         font-size: 1.2rem;
     }
     .nav-page ul, .nav ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
         text-align: center;
     }
     .nav-page ul li, .nav ul li {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
     
-    /* 홈 페이지 */
+    /*홈 */
     .profile-card {
         width: 300px;
         height: 300px;
     }
     
-    /* About Me 페이지 */
+    /*About Me*/
     .about-content {
         flex-direction: column;
         gap: 2rem;
@@ -29,7 +29,7 @@
         width: 80%;
     }
     
-    /* Like 페이지 */
+    /*Like*/
     .like-container {
         flex-direction: column;
         width: 90%;
@@ -39,8 +39,19 @@
         width: 80%;
     }
     
-    /* Plan 페이지 */
+    /*Plan*/
     .m-img {
         width: 90%;
+    }
+
+    /* Modal 반응형*/
+    .modal-content {
+        width: 90%;
+        max-width: 400px;
+        padding: 15px;
+    }
+    iframe {
+        width: 100%;
+        height: 200px;
     }
 }
